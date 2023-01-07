@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><i class="ri-ancient-gate-fill"></i><span>Travengers</span></a>
+        <div class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="gallery.html" class="gallery">Gallery</a></li>
+            <li><a href="#" class="ser">Services</a>
+                <ul class="service-dropdown">
+                    <!-- <li><a href="#">Places to Visit</a></li> -->
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Stay</a></li>
+                    <li><a href="#">Adventures</a></li>
+                    <li><a href="#">Food</a></li>
+                </ul>
+            </li>            
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+        <div class="login">
+            <a href="#" class="user"><i class="ri-user-6-fill"></i>Sign In</a>
+            <a href="#">Register</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- end of navbar -->
+
+    <section class="homepage">
+        <div class="content">
+            <h2>Get the best Travel Experience</h2>
+            <p>Travel makes one modest, You see what a tiny place you occupy in the world</p>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
+        <div class="book-window">
+            <!-- <div class="image">
+                <img src="book-img.svg" alt="">
+            </div> -->
+
+            <form action="">
+                <div class="inputBox">
+                    <label for="places">
+                        <h3>Choose a Place:</h3>
+                    </label>
+
+                    <select name="places" id="places">
+                        <option value="Select-PLace">Select Place</option>
+                        <option value="Bhubaneshwar">Bhubaneshwar</option>
+                        <option value="Puri">Puri</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <h3>No. of Guests</h3>
+                    <input type="number" min="1" max="10"
+                    placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrival</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Departure</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="ri-plane-fill"></i>
+                <h3>travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-hotel-fill"></i>
+                <h3>Hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="ri-earth-fill"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="ri-restaurant-fill"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>   
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>About us</h4>
+                    <ul>
+                        <li><a href="#">Investor Relation</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Terms and Services</a></li>
+                        <li><a href="#">Customer Support </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Products</h4>
+                    <ul>
+                        <li><a href="#">Domestic Hotels</a></li>
+                        <li><a href="#">International Flights</a></li>
+                        <li><a href="#">Multi-City Flight</a></li>
+                        <li><a href="#">Bus and Car booking</a></li>
+                        <li><a href="#">Cancellation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Travel Essentials</h4>
+                    <ul>
+                        <li><a href="#">PNR Status</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Airline Routes</a></li>
+                        <li><a href="#">Train Running Status </a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/sidharth.sibun/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Sidharth_Blaze"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/sidharthkenway/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sidharth-shankar-bharadwaj-59b297249/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
